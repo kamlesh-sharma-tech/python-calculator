@@ -37,9 +37,6 @@ def destroy():
     if(ex == True):
         win.destroy()
 
-
-
-
 win = Tk()
 win.title("My Calculator")
 win.geometry("440x600+600+100")
@@ -60,14 +57,8 @@ textField = Entry(win,font=("Helvetica",20,"bold"),justify=LEFT,width=27)
 textField.pack(side=TOP,pady=5)
 textField.focus()
 
-
-
-
-
 buttonsFrame = Frame(win)
 buttonsFrame.pack()
-
-
 
 temp = 1
 for i in range(0,3):
